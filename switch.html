@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch in Js</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        h1 {
+            text-align: center;
+            margin: 30px 10px;
+        }
+        p{
+            margin: 10px 20px;
+        }
+        input{
+            padding: 15px 40px;
+            border: none;
+            outline: none;
+            box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.098);
+        }
+        input::placeholder{
+            font-size: 1.3em;
+        }
+        input::content{
+            font-size: 1.5em;
+        }
+
+        #submit{
+            background: none;
+            border: none;
+            box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.164);
+            border-radius: 25px;
+            padding: 20px 90px; 
+            margin: 20px;
+            transition: 200ms;
+        }
+        #submit:hover{
+            cursor: pointer;
+            background-color: antiquewhite;
+            box-shadow: 0px 0px 30px rgba(73, 73, 73, 0.154);
+            
+        }
+        #submit:active{
+            transform: scale(0.94);
+        }
+    </style>
+</head>
+<body>
+    <h1 style="font-size: 4em;">Switch using JavaScript</h1>
+    <label for="mark">Mark : </label>
+    <input type="number" name="m_1" id="mark" required placeholder="enter the mark here">
+    <p id="Grade" style="font-size: 2.5em;">Grade : <span id="grade_js"></span></p>
+
+    <button id="submit" name="m_1" class="submit_c">Submit</button>
+
+    <script src="../JS/switch.js"></script>
+</body>
+</html>
